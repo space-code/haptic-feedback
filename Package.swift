@@ -9,21 +9,10 @@ let package = Package(
         .iOS(.v11),
     ],
     products: [
-        .library(
-            name: "HapticFeedback",
-            targets: ["HapticFeedback"]
-        ),
+        .library(name: "HapticFeedback", targets: ["HapticFeedback"]),
     ],
-    dependencies: [
-    ],
+    dependencies: [],
     targets: [
-        .target(
-            name: "HapticFeedback",
-            dependencies: []
-        ),
-        .testTarget(
-            name: "HapticFeedbackTests",
-            dependencies: ["HapticFeedback"]
-        ),
+        .target(name: "HapticFeedback", dependencies: []),
     ]
 )
