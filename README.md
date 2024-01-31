@@ -4,8 +4,8 @@
 
 <p align="center">
 <a href="https://github.com/space-code/haptic-feedback/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/space-code/haptic-feedback?style=flat"></a> 
-<a href="https://swiftpackageindex.com/space-code/haptic-feedback"><img alt="Swift Compability" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fspace-code%2Fhaptic-feedback%2Fbadge%3Ftype%3Dswift-versions"/></a> 
-<a href="https://swiftpackageindex.com/space-code/haptic-feedback"><img alt="Platform Compability" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fspace-code%2Fhaptic-feedback%2Fbadge%3Ftype%3Dplatforms"/></a> 
+<a href="https://swiftpackageindex.com/space-code/haptic-feedback"><img alt="Swift Compatibility" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fspace-code%2Fhaptic-feedback%2Fbadge%3Ftype%3Dswift-versions"/></a> 
+<a href="https://swiftpackageindex.com/space-code/haptic-feedback"><img alt="Platform Compatibility" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fspace-code%2Fhaptic-feedback%2Fbadge%3Ftype%3Dplatforms"/></a> 
 <a href="https://github.com/space-code/haptic-feedback"><img alt="CI" src="https://github.com/space-code/haptic-feedback/actions/workflows/ci.yml/badge.svg?branch=main"></a>
 <a href="https://github.com/apple/swift-package-manager" alt="haptic-feedback on Swift Package Manager" title="haptic-feedback on Swift Package Manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" /></a>
 </p>
