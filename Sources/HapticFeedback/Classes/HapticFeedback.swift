@@ -1,22 +1,22 @@
 //
 // haptic-feedback
-// Copyright © 2023 Space Code. All rights reserved.
+// Copyright © 2024 Space Code. All rights reserved.
 //
 
 import UIKit
 
-// Enum defining different types of haptic feedback
+/// Enum defining different types of haptic feedback
 public enum HapticFeedback: Equatable {
-    // Haptic feedback for impact with a specified style
+    /// Haptic feedback for impact with a specified style
     case impact(UIImpactFeedbackGenerator.FeedbackStyle)
 
-    // Haptic feedback for notifications with a specified type
+    /// Haptic feedback for notifications with a specified type
     case notification(UINotificationFeedbackGenerator.FeedbackType)
 
-    // Haptic feedback for selection
+    /// Haptic feedback for selection
     case selection
 
-    // Function to generate haptic feedback based on the enum case
+    /// Function to generate haptic feedback based on the enum case
     public func generate() {
         switch self {
         case let .impact(style):
