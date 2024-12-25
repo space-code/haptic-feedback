@@ -6,6 +6,7 @@
 import UIKit
 
 /// Enum defining different types of haptic feedback
+@MainActor
 public enum HapticFeedback: Equatable {
     /// Haptic feedback for impact with a specified style
     case impact(UIImpactFeedbackGenerator.FeedbackStyle)
