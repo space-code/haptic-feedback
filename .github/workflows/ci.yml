@@ -34,6 +34,18 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          - destination: "OS=18.1,name=iPhone 16 Pro"
+            name: "iOS 18.1"
+            xcode: "Xcode_16.1"
+            runsOn: macOS-14
+          - destination: "OS=18.0,name=iPhone 16 Pro"
+            name: "iOS 18.0"
+            xcode: "Xcode_16.0"
+            runsOn: macOS-14
+          - destination: "OS=17.5,name=iPhone 15 Pro"
+            name: "iOS 17.5"
+            xcode: "Xcode_15.4"
+            runsOn: macOS-14
           - destination: "OS=17.0.1,name=iPhone 14 Pro"
             name: "iOS 17.0.1"
             xcode: "Xcode_15.0"
@@ -49,11 +61,11 @@ jobs:
 
   discover-typos:
     name: Discover Typos
-    runs-on: macOS-12
+    runs-on: macOS-13
     env:
       DEVELOPER_DIR: /Applications/Xcode_14.1.app/Contents/Developer
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Discover typos
         run: |
           export PATH="$PATH:/Library/Frameworks/Python.framework/Versions/3.11/bin"

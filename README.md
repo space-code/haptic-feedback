@@ -31,7 +31,7 @@ HapticFeedback.notification(.heavy).generate()
 ```
 
 ## Requirements
-- iOS 11.0+
+- iOS 13.0+
 - Xcode 14.0
 - Swift 5.7
 
