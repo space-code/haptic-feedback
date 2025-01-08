@@ -7,7 +7,7 @@ import Foundation
 
 /// An operation that triggers haptic feedback using the provided `HapticFeedback` object.
 /// This operation is executed on the main thread to ensure the haptic feedback is played properly.
-final class HapticOperation: Operation {
+final class HapticOperation: Operation, @unchecked Sendable {
     // MARK: - Properties
 
     /// The `HapticFeedback` instance used to generate the haptic feedback.

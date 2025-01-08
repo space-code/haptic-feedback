@@ -7,7 +7,7 @@ import Foundation
 
 /// An operation that introduces a delay for a specified duration.
 /// Used to sequence operations in the `HapticFeedback` queue.
-final class WaitOperation: Operation {
+final class WaitOperation: Operation, @unchecked Sendable {
     // MARK: - Properties
 
     /// The duration of the wait in seconds.
